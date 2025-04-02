@@ -174,7 +174,7 @@ const AddTask = ({ open, setOpen, task }) => {
                   className="flex items-center gap-1 text-base text-ascent-2 hover:text-ascent-1 cursor-pointer my-4"
                   htmlFor="imgUpload"
                 >
-                  <input
+                  {/* <input
                     type="file"
                     className="hidden"
                     id="imgUpload"
@@ -183,12 +183,12 @@ const AddTask = ({ open, setOpen, task }) => {
                     multiple={true}
                   />
                   <BiImages />
-                  <span>Add Assets</span>
+                  <span>Add Assets</span> */}
                 </label>
               </div>
             </div>
 
-            <div className="bg-gray-50 py-6 sm:flex sm:flex-row-reverse gap-4">
+            <div className=" py-6 sm:flex sm:flex-row-reverse gap-4">
               {uploading ? (
                 <span className="text-sm py-2 text-red-500">
                   Uploading assets

@@ -24,7 +24,7 @@ const UserInfo = ({ user }) => {
             leaveFrom="opacity-100 translate-y-0"
             leaveTo="opacity-0 translate-y-1"
           >
-            <Popover.Panel className="absolute left-1/2 z-10 mt-3 w-80 max-w-sm -translate-x-1/2 transform px-4 sm:px-0">
+            <Popover.Panel className="absolute left-1/2 z-50 mt-3 w-80 max-w-sm -translate-x-1/2 transform px-4 sm:px-0">
               <div className="flex items-center gap-4 bg-white rounded-lg shadow-lg p-6">
                 {/* User Avatar */}
                 <div className="w-14 h-14 bg-blue-600 rounded-full text-white flex items-center justify-center text-lg font-bold">

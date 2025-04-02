@@ -40,7 +40,7 @@ export default function ConfirmatioDialog({
             {msg ?? "Are you sure you want to delete the selected record?"}
           </p>
 
-          <div className='bg-gray-50 py-3 sm:flex sm:flex-row-reverse gap-4'>
+          <div className=' py-3 sm:flex sm:flex-row-reverse gap-4'>
             <Button
               type='button'
               className={clsx(
